@@ -1,0 +1,1471 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="move_outliers_help_document.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>松平 余</o:Author>
+  <o:LastAuthor>松平 余</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>8</o:TotalTime>
+  <o:Created>2024-01-10T09:44:00Z</o:Created>
+  <o:LastSaved>2024-01-10T09:54:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>787</o:Words>
+  <o:Characters>4486</o:Characters>
+  <o:Lines>37</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5263</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="move_outliers_help_document.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="move_outliers_help_document.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>130</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Ubuntu Mono";
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 1342185563 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:.3gd;
+	mso-para-margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:10.0pt;
+	mso-char-indent-count:2.0;
+	line-height:120%;
+	mso-pagination:none;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin:0cm;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:.3gd;
+	mso-para-margin-left:0cm;
+	text-align:center;
+	text-indent:10.0pt;
+	mso-char-indent-count:2.0;
+	line-height:120%;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin:0cm;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:.3gd;
+	mso-para-margin-left:0cm;
+	text-indent:10.0pt;
+	mso-char-indent-count:2.0;
+	line-height:120%;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.hljs-number
+	{mso-style-name:hljs-number;
+	mso-style-unhide:no;}
+span.hljs-comment
+	{mso-style-name:hljs-comment;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("move_outliers_help_document.files/header.html") fs;
+	mso-footnote-continuation-separator:url("move_outliers_help_document.files/header.html") fcs;
+	mso-endnote-separator:url("move_outliers_help_document.files/header.html") es;
+	mso-endnote-continuation-separator:url("move_outliers_help_document.files/header.html") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-even-header:url("move_outliers_help_document.files/header.html") eh1;
+	mso-header:url("move_outliers_help_document.files/header.html") h1;
+	mso-even-footer:url("move_outliers_help_document.files/header.html") ef1;
+	mso-footer:url("move_outliers_help_document.files/header.html") f1;
+	mso-first-header:url("move_outliers_help_document.files/header.html") fh1;
+	mso-first-footer:url("move_outliers_help_document.files/header.html") ff1;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:90057047;
+	mso-list-template-ids:766291834;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:390927358;
+	mso-list-template-ids:1229195432;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="2"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;word-wrap:break-word;text-justify-trim:
+punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:0cm;mso-char-indent-count:
+0'><b><span style='font-size:16.0pt;mso-bidi-font-size:18.0pt;line-height:120%;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>去除异常值帮助文档：</span></b><b><span lang=EN-US style='font-size:
+16.0pt;mso-bidi-font-size:18.0pt;line-height:120%'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>1.</span></b><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>阈值截断：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>设置一个合理的阈值，将大于该阈值的数值截断或设定为阈值。这可以通过比较数据值与阈值的大小来实现。</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = 100<span
+style='mso-spacerun:yes'>&nbsp; </span># </span><span style='mso-bidi-font-size:
+10.5pt;font-family:宋体;mso-ascii-font-family:"Ubuntu Mono";mso-hansi-font-family:
+"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:
+0pt'>你可以根据实际情况调整阈值</span><span lang=EN-US style='mso-bidi-font-size:10.5pt;
+font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(data &gt; threshold,
+threshold, data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>2.</span></b><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>中位数绝对偏差（</span><span
+lang=EN-US>MAD</span></b><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>）：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>计算数据的中位数和中位数绝对偏差，然后基于中位数绝对偏差的倍数来识别和去除异常值。</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>median = <span class=SpellE><span
+class=GramE>np.median</span></span>(data)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>mad = <span class=SpellE><span
+class=GramE>np.median</span></span>(<span class=SpellE>np.abs</span>(data -
+median))<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = 3<span
+style='mso-spacerun:yes'>&nbsp; </span># </span><span style='mso-bidi-font-size:
+10.5pt;font-family:宋体;mso-ascii-font-family:"Ubuntu Mono";mso-hansi-font-family:
+"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:
+0pt'>你可以根据实际情况调整倍数</span><span lang=EN-US style='mso-bidi-font-size:10.5pt;
+font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(data
+- median) &gt; threshold * mad, median, data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>3.</span></b><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>移动平均值：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>使用滑动窗口计算移动平均值，并将远离移动平均值的值设为平均值。这可以通过平滑数据来去除异常值。</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>window_size</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> =
+5<span style='mso-spacerun:yes'>&nbsp; </span># </span><span style='mso-bidi-font-size:
+10.5pt;font-family:宋体;mso-ascii-font-family:"Ubuntu Mono";mso-hansi-font-family:
+"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:
+0pt'>你可以根据实际情况调整窗口大小</span><span lang=EN-US style='mso-bidi-font-size:10.5pt;
+font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>moving_average</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.convolve</span></span>(data, <span
+class=SpellE>np.ones</span>(<span class=SpellE>window_size</span>)/<span
+class=SpellE>window_size</span>, mode='same')<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(data
+- <span class=SpellE>moving_average</span>) &gt; threshold, <span class=SpellE>moving_average</span>,
+data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>4.</span></b><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>统计学方法：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>使用统计学方法（例如</span><span lang=EN-US>Z</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>分数）来判断哪些数据点被认为是异常值，并进行过滤。</span><span lang=EN-US>Z</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>分数（</span><span lang=EN-US>Z-score</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>）用于衡量数据点与其平均值之间的标准差差异。通常，绝对值大于</span><span lang=EN-US>3</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>的</span><span lang=EN-US>Z</span><span style='font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>分数被认为是异常值。然而，阈值的选择取决于具体的应用和数据分布，需要根据实际情况进行调整。</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>一般来说，</span><span lang=EN-US>Z</span><span style='font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>分数在正负</span><span
+lang=EN-US>3</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>之间的值表示数据点与平均值的偏差在正负</span><span
+lang=EN-US>3</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>个标准差以内，被认为是正常的。大于</span><span
+lang=EN-US>3</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>或小于</span><span lang=EN-US>-3</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>的</span><span lang=EN-US>Z</span><span style='font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>分数可能表示异常值。你可以根据你的数据集和具体的应用场景来调整这个阈值。</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>z_scores</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> =
+(data - <span class=SpellE><span class=GramE>np.mean</span></span>(data)) / <span
+class=SpellE>np.std</span>(data)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = 3<span
+style='mso-spacerun:yes'>&nbsp; </span># </span><span style='mso-bidi-font-size:
+10.5pt;font-family:宋体;mso-ascii-font-family:"Ubuntu Mono";mso-hansi-font-family:
+"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:
+0pt'>你可以根据实际情况调整阈值</span><span lang=EN-US style='mso-bidi-font-size:10.5pt;
+font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:black;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(<span
+class=SpellE>z_scores</span>) &gt; threshold, <span class=SpellE>np.mean</span>(data),
+data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>不同的异常值处理方法对数据频率信息的影响以及计算速度的影响取决于数据的特性和异常值的分布。以下是一些关于这两个方面的一般性考虑：</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>频率信息的影响：</span></b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>阈值截断：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>截断方法可能会在截去一些异常值的同时，削弱信号的高频部分，因为它直接将高于阈值的数值设为阈值。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN-US>MAD</span></b><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>（中位数绝对偏差）：</span></b><span lang=EN-US> MAD</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>方法相对较鲁棒，它基于中位数而不是均值，因此对异常值的敏感性较低，有助于保留频率信息。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>移动平均值：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>移动平均值会平滑数据，可能导致在频谱中丢失一些高频信息。窗口大小的选择会影响平滑的程度。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN-US>Z</span></b><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>分数：</span></b> <span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>使用</span><span
+lang=EN-US>Z</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>分数可能对数据的形状更敏感，过滤掉偏离平均水平较远的值。这可能会影响频率信息，特别是在存在大的离群值时。</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>计算速度：</span></b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>阈值截断：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>这是最简单和最直接的方法，通常速度较快。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN-US>MAD</span></b><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>：</span></b> <span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>需要计算中位数和中位数绝对偏差，计算量相对较大，但仍然是可接受的。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>移动平均值：</span></b> <span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>需要进行卷积操作，计算量相对较大，特别是对于大型数据集。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:4.65pt;
+margin-left:36.0pt;text-indent:21.1pt;mso-list:l1 level1 lfo4;tab-stops:list 36.0pt'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b><span lang=EN-US>Z</span></b><b><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>分数：</span></b> <span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>需要计算平均值和标准差，计算量适中。</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>在实际应用中，通常需要根据数据的特性和处理的要求来选择适当的方法。如果处理大规模数据集并且需要更快的计算速度，可以优先考虑阈值截断或</span><span
+lang=EN-US>Z</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>分数方法。如果对频率信息的保留较为敏感，可能更倾向于使用</span><span
+lang=EN-US>MAD</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>方法。移动平均值通常用于平滑数据，可能不太适用于异常值去除。</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:0cm;mso-char-indent-count:
+0'><span class=SpellE><b><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:
+18.0pt;line-height:120%'>Move_Outliers_Help</span></b></span><b><span
+style='font-size:16.0pt;mso-bidi-font-size:18.0pt;line-height:120%;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>：</span></b><b><span
+lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:18.0pt;line-height:120%'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>1.<b>Threshold Truncation</b>: Set a reasonable threshold to
+truncate or set values greater than the threshold. This can be achieved by
+comparing data values with the threshold.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```python</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = </span><span class=GramE><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:#DF3079;border:solid #D9D9E3 1.0pt;mso-border-alt:
+solid #D9D9E3 .25pt;padding:0cm;background:black;mso-font-kerning:0pt'>100</span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'><span
+style='mso-spacerun:yes'>&nbsp; </span><span style='border:solid #D9D9E3 1.0pt;
+mso-border-alt:solid #D9D9E3 .25pt;padding:0cm'>#</span></span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;mso-color-alt:windowtext;border:solid #D9D9E3 1.0pt;
+mso-border-alt:solid #D9D9E3 .25pt;padding:0cm;background:black;mso-font-kerning:
+0pt'> Adjust the threshold based on your actual data</span><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+class=SpellE><span lang=EN-US style='mso-bidi-font-size:10.5pt;line-height:
+120%;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;background:
+black;mso-font-kerning:0pt'>cleaned_data</span></span><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;line-height:120%;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(data &gt; threshold,
+threshold, data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>2.<b>Median Absolute Deviation (MAD)</b>: Calculate the median and
+the median absolute deviation of the data, then identify and remove outliers
+based on a multiple of the MAD.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```python</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>median = <span class=SpellE><span
+class=GramE>np.median</span></span>(data)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>mad = <span class=SpellE><span
+class=GramE>np.median</span></span>(<span class=SpellE>np.abs</span>(data -
+median))<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = <span class=GramE>3<span
+style='mso-spacerun:yes'>&nbsp; </span>#</span> Adjust the multiple based on
+your actual data<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(data
+- median) &gt; threshold * mad, median, data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>3<b>.Moving Average:</b> Use a sliding window to calculate the
+moving average and set values far from the moving average to the average. This
+helps in smoothing data to remove outliers.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```python</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>window_size</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=GramE>5<span style='mso-spacerun:yes'>&nbsp; </span>#</span> Adjust the
+window size based on your actual data<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>moving_average</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.convolve</span></span>(data, <span
+class=SpellE>np.ones</span>(<span class=SpellE>window_size</span>)/<span
+class=SpellE>window_size</span>, mode='same')<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(data
+- <span class=SpellE>moving_average</span>) &gt; threshold, <span class=SpellE>moving_average</span>,
+data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>4.<b>Statistical Methods</b>: Use statistical methods (e.g., Z-scores)
+to identify which data points are considered outliers and filter them out.
+Z-scores measure the deviation of data points from their mean in terms of
+standard deviations. Generally, values outside the range of ±3 Z-scores are
+considered outliers, but the threshold depends on the specific application and
+data distribution.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```python</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>z_scores</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> =
+(data - <span class=SpellE><span class=GramE>np.mean</span></span>(data)) / <span
+class=SpellE>np.std</span>(data)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:宋体;color:white;
+background:black;mso-font-kerning:0pt'>threshold = <span class=GramE>3<span
+style='mso-spacerun:yes'>&nbsp; </span>#</span> Adjust the threshold based on
+your actual data<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:4.65pt;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:0;line-height:normal;mso-pagination:
+widow-orphan;layout-grid-mode:both'><span class=SpellE><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";mso-bidi-font-family:
+宋体;color:white;background:black;mso-font-kerning:0pt'>cleaned_data</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:"Ubuntu Mono";
+mso-bidi-font-family:宋体;color:white;background:black;mso-font-kerning:0pt'> = <span
+class=SpellE><span class=GramE>np.where</span></span>(<span class=SpellE>np.abs</span>(<span
+class=SpellE>z_scores</span>) &gt; threshold, <span class=SpellE>np.mean</span>(data),
+data)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>```</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>Different outlier handling methods have different impacts on the
+frequency information of the data and computational speed. Here are some
+general considerations regarding these aspects:</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>Frequency Information Impact:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>1. Threshold Truncation: Truncation may cut off some
+outliers but could weaken high-frequency signal components as it directly sets
+values above the threshold to the threshold.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>2. MAD (Median Absolute Deviation): MAD is relatively
+robust, being based on the median instead of the mean, making it less sensitive
+to outliers and helpful in retaining frequency information.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>3. Moving Average: Moving average smoothens data and may
+lead to a loss of high-frequency information in the spectrum. The choice of
+window size affects the level of smoothing.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>4. Z-scores: Using Z-scores might be more sensitive to
+the shape of the data, filtering out values deviating significantly from the
+mean level, potentially affecting frequency information, especially in the
+presence of large outliers.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.1pt'><b><span
+lang=EN-US>Computational Speed:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>1. Threshold Truncation: This is the simplest and most
+direct method, usually with faster speed.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>2. MAD: Requires computing the median and median absolute
+deviation, which is computationally heavier but still acceptable.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>3. Moving Average: Involves convolution operations,
+requiring relatively larger computations, especially for large datasets.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US>4. Z-scores: Requires calculating the mean and standard
+deviation, with a moderate level of computation.</span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:42.0pt;mso-char-indent-count:
+4.0'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:4.65pt;text-indent:21.0pt'><span
+lang=EN-US>In practical applications, the choice of method often depends on the
+characteristics of the data and the requirements of the processing. If dealing
+with large datasets and prioritizing faster computation, threshold truncation
+or Z-score methods may be preferred. If sensitivity to the preservation of
+frequency information is crucial, MAD method may be favored. Moving average is
+typically used for data smoothing and may not be as suitable for outlier
+removal.</span></p>
+
+</div>
+
+</body>
+
+</html>
